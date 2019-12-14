@@ -30,10 +30,10 @@ keyphrase = '!translinkbot'
 print('Retrieving stations...')
 stations_list = requests.get('https://translink-proxy.herokuapp.com/stations').json()
 
-station_code = None
-
 print("Monitoring comments...")
 for comment in subreddit.stream.comments():
+  station_code = None
+
   if keyphrase in comment.body:
     try:
       requested_station = comment.body.replace(keyphrase, '').lstrip(' ')
@@ -80,7 +80,7 @@ for comment in subreddit.stream.comments():
           comment.reply('Bleep, bloop. There are no trains due at **' + requested_station + '** for at least 90min.')
       else:
         print('Station not recognised. Sending reply...')
-        comment.reply("I'm sorry, I don't recognise that station!")
+        comment.reply("Bleep, bloop. I'm sorry, I don't recognise that station!")
     except:
       print('Fell afoul of rate limit.')
     
