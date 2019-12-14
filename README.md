@@ -18,6 +18,6 @@ Code will be uploaded once environment variables are sorted.
 Station names are compared to a response from the [OpenData API](https://www.opendatani.gov.uk/dataset/real-time-rail-stations-arrivals-and-departures/resource/490fe701-0e7b-4030-a4b0-9ede8c0d85cf) and most should be recognised without issue.
 
 Variations accounted for include:
-Derry, Londonderry, Derry/Londonderry and Waterside will all refer to the same station
-Lanyon Place and Belfast Central will refer to the same station
-Great Victoria Street and Great Victoria St will refer to the same station
+- Derry, Londonderry, Derry/Londonderry and Waterside will all refer to the same station
+- Lanyon Place and Belfast Central will refer to the same station
+- Great Victoria Street and Great Victoria St will refer to the same station
