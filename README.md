@@ -12,8 +12,6 @@ Comment in any submission in `r/northernireland` with:
 
 Provided the rate limit is removed you should get a response within a few seconds.
 
-Code will be uploaded once environment variables are sorted.
-
 ## Recognised Stations
 Station names are compared to a response from the [OpenData API](https://www.opendatani.gov.uk/dataset/real-time-rail-stations-arrivals-and-departures/resource/490fe701-0e7b-4030-a4b0-9ede8c0d85cf) and most should be recognised without issue.
 
